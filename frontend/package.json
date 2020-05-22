@@ -1,0 +1,16 @@
+{
+    "name": "my-todolist",
+    "version": "0.1.0",
+    "dependencies": {
+        "body-parser": "~1.10.1",
+        "cookie-session": "~1.1.0",
+        "ejs": "~2.1.4",
+        "express": "~4.11.0",
+        "request": "^2.88.2"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Andrea <andrea.bortolossi89@gmail.com>",
+    "description": "A very basic to do list manager"
+}
