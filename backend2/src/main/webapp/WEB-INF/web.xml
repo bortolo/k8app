@@ -1,0 +1,26 @@
+
+<!--
+The web.xml file is used to tell the web container how to handle the files in
+our web app. Think of it as a configuration file.
+<display-name> the application will be listed under this name in Tomcat Manager.
+The <servlet> tag holds the configuration of our servlet.
+<servlet-name> is the alias of our servlet, it is used to configure other
+properties of the servlet in the web.xml file.
+<servlet-class> is the path to our servlet.
+<load-on-startup>1</load-on-startup> means the servlet will be loaded into
+the web-container when Tomcat starts.
+If you have other servlets in your project you can set load-on-startup values
+like 2,3, 100 etc. The servlets with the lowest values have bigger priority
+and will load first.
+<servlet-mapping> is used to give a servlet a URL.
+In our example we give the pattern /hello to our servlet meaning the full
+URL to access the servlet on your local server
+will be http://localhost:8080/SimpleServlet/hello
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+		version="3.1">
+</web-app>

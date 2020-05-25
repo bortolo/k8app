@@ -1,0 +1,12 @@
+WHAT ARE SERVLETS?
+Servlets are the building blocks of almost every java web application.
+They provide the core functionality to accept HTTP requests and return
+HTTP responses to the user. Even if you use JSP to build your web pages,
+the JSP files are eventually compiled to Servlets by the application server
+or web container such as Glassfish or Tomcat. Servlets are essential for your
+web container to do it’s job, serving GET, POST, HEAD, PUT, DELETE, OPTIONS and
+TRACE requests and return a response to web clients. You are most probably
+familiar with GET and POST requests. I strongly recommend to invest some time
+and read about the other types of request listed above. If you don’t know them
+yet, go and read this paper now
+shttps://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html .
